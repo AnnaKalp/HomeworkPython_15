@@ -13,7 +13,7 @@
 import logging
 import argparse
 
-logging.basicConfig(filename='Log/log_9.log',
+logging.basicConfig(filename='Log/log_1.log',
                     filemode='a',
                     encoding='utf-8',
                     format='{levelname:<6} - {asctime} в модуле {module} функция "{funcName}()" : {msg}',
@@ -38,7 +38,7 @@ if __name__=="__main__":
 
     parser = argparse.ArgumentParser(description="Принимаем строку с данными")
     parser.add_argument('-a', type=str, default='4')
-    parser.add_argument('-b', type=str, default='12')
+    parser.add_argument('-b', type=str, default='4')
     parser.add_argument('-c', type=str, default='5')
 
     args = parser.parse_args()

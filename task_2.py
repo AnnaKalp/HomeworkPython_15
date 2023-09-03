@@ -9,7 +9,7 @@
 import logging
 import argparse
 
-logging.basicConfig(filename='Log/log_10.log',
+logging.basicConfig(filename='Log/log_2.log',
                     filemode='a',
                     encoding='utf-8',
                     format='{levelname:<6} - {asctime} в модуле {module} функция "{funcName}()" : {msg}',
